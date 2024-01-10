@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Bus Ticket Booking System</h1>
+    <!-- Add navigation links and user authentication status here -->
+</header>
+
+<!-- Main Content Section -->
+<main>
+    <!-- Login Module -->
+    <section id="login-section">
+        <h2>Login</h2>
+        <!-- Add forms for user authentication, change password, and forgot password -->
+    </section>
+
+    <!-- Registration Module -->
+    <section id="registration-section">
+        <h2>Registration</h2>
+        <!-- Add a registration form -->
+        <form action="/register" method="post">
+            <!-- Include fields for user registration details -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Book Ticket Module -->
+    <section id="book-ticket-section">
+        <h2>Book Ticket</h2>
+        <!-- Add forms for booking a bus ticket -->
+    </section>
+
+    <!-- Update Bus Information Module -->
+    <section id="update-bus-section">
+        <h2>Update Bus Information</h2>
+        <!-- Add forms for adding or updating bus information -->
+    </section>
+
+    <!-- Cancel Booking Ticket Module -->
+    <section id="cancel-booking-section">
+        <h2>Cancel Booking Ticket</h2>
+        <!-- Add forms for canceling booked tickets -->
+    </section>
+
+    <!-- Comments Module -->
+    <section id="comments-section">
+        <h2>Comments</h2>
+        <!-- Add forms for posting comments on buses -->
+    </section>
+
+    <!-- Report Generation Module -->
+    <section id="report-generation-section">
+        <h2>Report Generation</h2>
+        <!-- Add forms or buttons for generating reports -->
+    </section>
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Bus Ticket Booking System. All rights reserved.</p>
+</footer>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Bus Ticket Booking System</h1>
+    <!-- Add navigation links and user authentication status here -->
+</header>
+
+<!-- Main Content Section -->
+<main>
+    <!-- Login Module -->
+    <section id="login-section">
+        <h2>Login</h2>
+        <!-- Add link to redirect to login page -->
+        <a href="/login">Go to Login</a>
+    </section>
+
+    <!-- Registration Module -->
+    <section id="registration-section">
+        <h2>Registration</h2>
+        <!-- Add link to redirect to registration page -->
+        <a href="/register">Go to Registration</a>
+    </section>
+
+    <!-- Book Ticket Module -->
+    <section id="book-ticket-section">
+        <h2>Book Ticket</h2>
+        <!-- Add link to redirect to book ticket page -->
+        <a href="/book-ticket">Go to Book Ticket</a>
+    </section>
+
+    <!-- Update Bus Information Module -->
+    <section id="update-bus-section">
+        <h2>Update Bus Information</h2>
+        <!-- Add link to redirect to update bus information page -->
+        <a href="/update-bus">Go to Update Bus Information</a>
+    </section>
+
+    <!-- Cancel Booking Ticket Module -->
+    <section id="cancel-booking-section">
+        <h2>Cancel Booking Ticket</h2>
+        <!-- Add link to redirect to cancel booking ticket page -->
+        <a href="/cancel-booking">Go to Cancel Booking Ticket</a>
+    </section>
+
+    <!-- Comments Module -->
+    <section id="comments-section">
+        <h2>Comments</h2>
+        <!-- Add link to redirect to comments page -->
+        <a href="/comments">Go to Comments</a>
+    </section>
+
+    <!-- Report Generation Module -->
+    <section id="report-generation-section">
+        <h2>Report Generation</h2>
+        <!-- Add link to redirect to report generation page -->
+        <a href="/generate-report">Go to Report Generation</a>
+    </section>
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Bus Ticket Booking System. All rights reserved.</p>
+</footer>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Login Form -->
+<form action="/process-login" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+</form>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Registration Form -->
+<form action="/process-registration" method="post">
+    <!-- Include fields for user registration details -->
+    <button type="submit">Register</button>
+</form>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket - Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Book Ticket Form -->
+<form action="/process-book-ticket" method="post">
+    <!-- Include fields for booking a bus ticket -->
+    <button type="submit">Book Ticket</button>
+</form>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Bus Information - Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Update Bus Information Form -->
+<form action="/process-update-bus" method="post">
+    <!-- Include fields for updating bus information -->
+    <button type="submit">Update Bus Information</button>
+</form>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancel Booking Ticket - Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Cancel Booking Ticket Form -->
+<form action="/process-cancel-booking" method="post">
+    <!-- Include fields for canceling booked tickets -->
+    <button type="submit">Cancel Booking Ticket</button>
+</form>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments - Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Comments Form -->
+<form action="/process-comments" method="post">
+    <!-- Include fields for posting comments on buses -->
+    <button type="submit">Post Comment</button>
+</form>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Report - Bus Ticket Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Report Generation Form -->
+<form action="/process-generate-report" method="post">
+    <!-- Include fields or buttons for generating reports -->
+    <button type="submit">Generate Report</button>
+</form>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
