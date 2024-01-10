@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Welcome to Our Hotel</h1>
+    <!-- Add navigation links and user authentication status here -->
+</header>
+
+<!-- Main Content Section -->
+<main>
+    <!-- User Registration and Profile Modification Forms -->
+    <section id="user-section">
+        <h2>User Section</h2>
+        <!-- Add forms for user registration and profile modification here -->
+    </section>
+
+    <!-- Room Booking Section -->
+    <section id="booking-section">
+        <h2>Room Booking</h2>
+        <!-- Add forms for room booking, viewing booking history, changing bookings, and canceling bookings here -->
+    </section>
+
+    <!-- Administrator Section -->
+    <section id="admin-section">
+        <h2>Administrator Section</h2>
+        <!-- Add forms for administrators to manage rooms, bookings, and static pages here -->
+    </section>
+
+    <!-- Room Availability Checker -->
+    <section id="availability-section">
+        <h2>Check Room Availability</h2>
+        <!-- Add a form to check room availability here -->
+    </section>
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Your Hotel. All rights reserved.</p>
+</footer>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking System</title>
+    <!-- Add your CSS stylesheets and JavaScript files here -->
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Welcome to Our Hotel</h1>
+    <!-- Add navigation links and user authentication status here -->
+</header>
+
+<!-- Main Content Section -->
+<main>
+    <!-- User Registration Section -->
+    <section id="user-registration-section">
+        <h2>User Registration</h2>
+        <!-- Add user registration form -->
+        <form action="/register" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- User Profile Modification Section -->
+    <section id="profile-modification-section">
+        <h2>User Profile Modification</h2>
+        <!-- Add user profile modification form -->
+        <form action="/modify-profile" method="post">
+            <!-- Include fields for modifying profile information -->
+            <!-- For example, fields for updating name, email, etc. -->
+            <button type="submit">Modify Profile</button>
+        </form>
+    </section>
+
+    <!-- Room Booking Section -->
+    <!-- Include similar structures for other sections -->
+
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Your Hotel. All rights reserved.</p>
+</footer>
+
+<!-- Add your JavaScript scripts here -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Room Booking Section -->
+<section id="booking-section">
+    <h2>Room Booking</h2>
+    <!-- Add forms for room booking, viewing booking history, changing bookings, and canceling bookings here -->
+    <form action="/book-room" method="post">
+        <label for="check-in-date">Check-in Date:</label>
+        <input type="date" id="check-in-date" name="check-in-date" required>
+
+        <label for="room-type">Room Type:</label>
+        <select id="room-type" name="room-type" required>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <!-- Add other room types as needed -->
+        </select>
+
+        <button type="submit">Book Room</button>
+    </form>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Administrator Section -->
+<section id="admin-section">
+    <h2>Administrator Section</h2>
+    <!-- Add forms for administrators to manage rooms, bookings, and static pages here -->
+    <form action="/modify-room" method="post">
+        <label for="room-type">Room Type:</label>
+        <select id="room-type" name="room-type" required>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <!-- Add other room types as needed -->
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required>
+
+        <button type="submit">Modify Room</button>
+    </form>
+
+    <!-- Add similar forms for other administrator actions -->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Room Availability Checker -->
+<section id="availability-section">
+    <h2>Check Room Availability</h2>
+    <!-- Add a form to check room availability here -->
+    <form action="/check-availability" method="post">
+        <label for="check-in-date">Check-in Date:</label>
+        <input type="date" id="check-in-date" name="check-in-date" required>
+
+        <label for="room-type">Room Type:</label>
+        <select id="room-type" name="room-type" required>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <!-- Add other room types as needed -->
+        </select>
+
+        <button type="submit">Check Availability</button>
+    </form>
+</section>
