@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Railway Reservation System</title>
+</head>
+<body>
+
+  <h1>Railway Reservation System</h1>
+
+  <!-- Login Form -->
+  <form id="loginForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="button" onclick="login()">Login</button>
+  </form>
+
+  <!-- Reservation Form -->
+  <form id="reservationForm" style="display: none;">
+    <label for="journeyDate">Date of Journey:</label>
+    <input type="date" id="journeyDate" name="journeyDate" required>
+
+    <!-- Other passenger and journey details input fields -->
+
+    <label for="classType">Class Type:</label>
+    <select id="classType" name="classType">
+      <option value="economy">Economy</option>
+      <option value="business">Business</option>
+      <!-- Add more class types as needed -->
+
+    <button type="button" onclick="getTrainList()">Get Train List</button>
+    <!-- Display available trains and seats details here -->
+
+    <label for="paymentMethod">Payment Method:</label>
+    <select id="paymentMethod" name="paymentMethod">
+      <option value="online">Online</option>
+      <option value="offline">Offline</option>
+    </select>
+
+    <button type="button" onclick="makePayment()">Make Payment</button>
+    <!-- Display payment success message and generate ticket with PNR -->
+
+    <label for="pnrNumber">Enter PNR Number:</label>
+    <input type="text" id="pnrNumber" name="pnrNumber" required>
+
+    <button type="button" onclick="checkPNRStatus()">Check PNR Status</button>
+    <!-- Display PNR status details -->
+
+    <button type="button" onclick="cancelTicket()">Cancel Ticket</button>
+    <!-- Display cancellation success message -->
+
+  </form>
+
+  <script>
+    function login() {
+      // Perform login validation
+      // Show/hide forms accordingly
+    }
+
+    function getTrainList() {
+      // Fetch and display available trains and seats details
+    }
+
+    function makePayment() {
+      // Handle online/offline payment
+      // Generate ticket and PNR
+      // Store payment details and notify admin
+    }
+
+    function checkPNRStatus() {
+      // Fetch and display PNR status details
+    }
+
+    function cancelTicket() {
+      // Process ticket cancellation
+      // Notify admin for refund process
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Railway Reservation System</title>
+</head>
+<body>
+
+  <h1>Railway Reservation System</h1>
+
+  <!-- Booking Form -->
+  <form id="bookingForm">
+    <label for="journeyDate">Date of Journey:</label>
+    <input type="date" id="journeyDate" name="journeyDate" required>
+
+    <label for="journeyTime">Time of Journey:</label>
+    <input type="time" id="journeyTime" name="journeyTime" required>
+
+    <!-- Other passenger and journey details input fields -->
+
+    <label for="classType">Class Type:</label>
+    <select id="classType" name="classType">
+      <option value="economy">Economy</option>
+      <option value="business">Business</option>
+      <!-- Add more class types as needed -->
+
+    <button type="button" onclick="checkAvailability()">Check Availability</button>
+    <!-- Display available seats and details here -->
+
+    <label for="paymentMethod">Payment Method:</label>
+    <select id="paymentMethod" name="paymentMethod">
+      <option value="online">Online</option>
+      <option value="offline">Offline</option>
+    </select>
+
+    <button type="button" onclick="makePayment()">Make Payment</button>
+    <!-- Display payment success message and generate ticket with PNR -->
+
+    <label for="remarks">Remarks:</label>
+    <textarea id="remarks" name="remarks" rows="4" cols="50"></textarea>
+
+    <button type="button" onclick="cancelTicket()">Cancel Ticket</button>
+    <!-- Display cancellation success message -->
+
+  </form>
+
+  <script>
+    function checkAvailability() {
+      // Fetch and display available seats details
+    }
+
+    function makePayment() {
+      // Handle online/offline payment
+      // Generate ticket and PNR
+      // Store payment details and notify admin
+    }
+
+    function cancelTicket() {
+      // Process ticket cancellation
+      // Notify admin for refund process
+    }
+  </script>
+
+</body>
+</html>
